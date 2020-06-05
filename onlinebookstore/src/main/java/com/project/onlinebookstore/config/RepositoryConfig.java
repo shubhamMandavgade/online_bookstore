@@ -8,9 +8,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;
 
-import com.project.onlinebookstore.entity.Book;
-import com.project.onlinebookstore.entity.BookCategory;
-
 
 @Configuration
 public class RepositoryConfig implements RepositoryRestConfigurer{
